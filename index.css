@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display:flex ;
+    justify-content: space-between;
+    width: 343px;
+    border-bottom: solid 2px #C6C6C6;
+    margin: 0 auto;
+    padding: 16px 16px;
+}
+
+.logo {
+    width: 127px;    
+}
+
+header .avatar-img {
+    margin-top:14px
+}
+
+.avatar-img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+main {
+    margin: 0 auto;
+    width: 375px;
+}
+
+section {
+    display: flex;
+    width: 375px;
+    margin: 0 auto;
+}
+
+h1,h2,span,.icons {
+    margin: 0;
+    color: #000000;
+}
+
+/* bold fonts */
+
+h1,
+.like-count,
+.username{
+    font-weight: 700;
+}
+
+/* typography */
+
+h1 {
+    font-size: 13px;
+    line-height: 16.34px;
+}
+
+h2 {
+    font-size:  12px ;
+    line-height: 15.08px;
+    font-weight:  400 ;
+}
+
+.user-card {
+    margin: 10px 0 11px 10px;
+}
+
+.user-info  {
+    margin-left: 7px;
+}
+
+.post-img {
+    width: 375px;
+    margin: 0 auto;    
+}
+
+.comment-section {
+    margin: 0px auto;
+    display: inline-block ;
+    text-align: start;
+    width: 375px;
+    padding: 21px 0px 16px 10px;
+}
+
+.icons {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    outline: none
+    
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.like-count {
+    font-size: 12px;
+    margin-left: 3px;
+    margin-bottom: 11px;
+}
+
+.username-caption {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.username {
+    margin-left: 3px;
+}
+
+.fa-regular {
+    display: inline-block;
+    color: #000000;
+    margin: 0;
+}
+
+.fa-regular:hover,
+.fa-regular:focus {
+    color: gray;
+    cursor: pointer; 
+}
+
+
